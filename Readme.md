@@ -19,7 +19,7 @@ npm install datatables.net-select-bm
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables.net-select-bm}' )( window, $ );
+var dt = require( 'datatables.net-select-bm' )( window, $ );
 ```
 
 ### bower
