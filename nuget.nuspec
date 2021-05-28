@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>1.3.3</version>
+        <id>datatables.net-select-bm</id>
+        <description>This is Select for DataTables with styling for [Bulma](https://bulma.io/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Select-Bulma.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>select  selection  Bulma  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-select" version=">=1.3.3"/>
+            <dependency id="datatables.net-bm" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/select.bulma.js" target="content\Scripts"/>
+        <file src="js/select.bulma.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/select.bulma.min.js" target="content\Scripts"/>
+        <file src="js/select.bulma.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/select.bulma.css" target="content\Content"/>
+        <file src="css/select.bulma.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/select.bulma.min.css" target="content\Content"/>
+        <file src="css/select.bulma.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/select.bulma.d.ts" target="content\Scripts"/>
+        <file src="types/select.bulma.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
+</package>
+
