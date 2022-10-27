@@ -10,7 +10,8 @@
         "css/select.bulma.min.css"
     ],
     "types": [
-        "types/select.bulma.d.ts"
+        "types/select.bulma.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/Select",
     "last-tag": "1.4.0"

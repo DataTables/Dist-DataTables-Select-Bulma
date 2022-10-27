@@ -4,7 +4,7 @@
     "main": "js/select.bulma.js",
     "module": "js/select.bulma.mjs",
     "style": "css/select.bulma.css",
-    "types": "./types/select.bulma.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.4.0",
     "files": [
         "css/**/*.css",
