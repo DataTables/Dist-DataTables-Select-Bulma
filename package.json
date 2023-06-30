@@ -4,7 +4,7 @@
     "main": "js/select.bulma.js",
     "module": "js/select.bulma.mjs",
     "style": "css/select.bulma.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/select.bulma.d.ts",
     "version": "1.6.2",
     "files": [
         "css/**/*.css",
@@ -14,7 +14,7 @@
     ],
     "keywords": [
         "select",
-        "selection",
+ "selection",
         "Bulma",
         "Datatables",
         "jQuery",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-select": ">=1.4.0",
-        "datatables.net-bm": ">=1.12.1",
+        "datatables.net-select": ">=1.6.2",
+        "datatables.net-bm": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
