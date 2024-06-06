@@ -1,6 +1,11 @@
+:root {
+  --dt-bulma-selected-background-color: var(--bulma-table-row-active-background-color, rgba(0, 209, 178, 0.9));
+  --dt-bulma-selected-text-color: var(--bulma-table-row-active-color, rgb(46, 51, 61));
+}
+
 table.dataTable > tbody > tr > .selected {
-  background-color: rgba(0, 209, 178, 0.9);
-  color: white;
+  background-color: var(--dt-bulma-selected-background-color);
+  color: var(--dt-bulma-selected-text-color);
 }
 table.dataTable > tbody > tr > .dt-select {
   text-align: center;
