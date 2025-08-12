@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>select  selection  Bulma  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-select" version="1.4.0"/>
-            <dependency id="datatables.net-bm" version="1.12.1"/>
+            <dependency id="datatables.net-select" version="3.0.1"/>
+            <dependency id="datatables.net-bm" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/select.bulma.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/select.bulma.min.js" target="content\Scripts"/>
         <file src="js/select.bulma.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/select.bulma.min.mjs" target="content\Scripts"/>
+        <file src="js/select.bulma.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/select.bulma.mjs" target="content\Scripts"/>
+        <file src="js/select.bulma.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/select.bulma.css" target="content\Content"/>
         <file src="css/select.bulma.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/select.bulma.min.css" target="content\Content"/>
