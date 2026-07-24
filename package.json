@@ -5,7 +5,7 @@
     "module": "js/select.bulma.mjs",
     "style": "css/select.bulma.css",
     "types": "./types/select.bulma.d.ts",
-    "version": "4.0.0-beta.1",
+    "version": "4.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -22,8 +22,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-select": "4.0.0-beta.1",
-        "datatables.net-bm": "3.0.0-0"
+        "datatables.net-select": "4.0.0",
+        "datatables.net-bm": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
