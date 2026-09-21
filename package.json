@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-select-bm",
     "description": "Select for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/select.bulma.js",
-    "module": "js/select.bulma.mjs",
-    "style": "css/select.bulma.css",
+    "main": "./js/select.bulma.js",
+    "module": "./js/select.bulma.mjs",
+    "style": "./css/select.bulma.css",
     "types": "./types/select.bulma.d.ts",
     "version": "4.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "select",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Select.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/select.bulma.d.ts",
+            "import": "./js/select.bulma.mjs",
+            "default": "./js/select.bulma.mjs",
+            "require": "./js/select.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/select.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
