@@ -1,4 +1,4 @@
-/*! Select Bulma styling 4.0.1 for DataTables
+/*! Select Bulma styling 4.1.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
