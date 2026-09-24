@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/select.bulma.d.ts",
+            "style": "./css/select.bulma.css",
             "import": "./js/select.bulma.mjs",
-            "default": "./js/select.bulma.mjs",
-            "require": "./js/select.bulma.js"
+            "require": "./js/select.bulma.js",
+            "default": "./js/select.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
